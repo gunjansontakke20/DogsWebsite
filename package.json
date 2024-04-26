@@ -1,0 +1,57 @@
+{
+  "name": "wibe-test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://gunjansontakke20.github.io/DogsWebsite",
+  "dependencies": {
+    "@dotlottie/react-player": "^1.6.18",
+    "@emailjs/browser": "^4.3.1",
+    "@fontsource/kaushan-script": "^4.5.2",
+    "@fontsource/sirin-stencil": "^4.5.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^6.2.8",
+    "gsap": "^3.9.1",
+    "locomotive-scroll": "^4.1.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.51.0",
+    "react-locomotive-scroll": "^0.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.0",
+    "sass": "^1.71.1",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
